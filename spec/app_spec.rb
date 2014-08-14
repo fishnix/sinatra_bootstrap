@@ -8,7 +8,7 @@ describe "sinatra_bootstrap" do
   include Rack::Test::Methods
 
   def app
-    sinatra_bootstrap
+    SinatraBootstrapApp
   end
 
   before(:each) do
